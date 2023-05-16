@@ -74,7 +74,7 @@ body {
 
 p {
   margin-bottom: 1.5rem;
-  max-width: 40em;
+  /* max-width: 40em; */
 }
 
 h1,
@@ -582,4 +582,38 @@ footer p {
 }
 .bold {
   font-weight: bold;
+}
+/* cpu list */
+.cpu-list {
+  padding-top: 1rem;
+}
+.cpu-list .title-underline {
+  height: 0.15rem;
+  margin-top: -1rem;
+}
+.cpu-list h4 {
+  font-weight: 500;
+}
+.cpu-listed {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 7rem);
+  grid-template-rows: auto;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cpu-btn {
+  font-size: 0.75rem;
+  margin: 0 auto;
+  margin-bottom: 0.4rem;
+}
+.cpu-info p {
+  text-transform: uppercase;
+  margin: 0.5rem;
+}
+.num-x .title-underline {
+  margin: 0;
+  height: 0.15rem;
+  margin-top: -1rem;
 }
