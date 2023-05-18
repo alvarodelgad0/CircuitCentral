@@ -577,9 +577,6 @@ footer p {
   gap: 1rem;
   justify-content: start;
 }
-.cpu-img {
-  border-radius: var(--borderRadius);
-}
 .bold {
   font-weight: bold;
 }
@@ -616,4 +613,24 @@ footer p {
   margin: 0;
   height: 0.15rem;
   margin-top: -1rem;
+}
+.cpu-img-list-c {
+  height: 4rem;
+  overflow: hidden;
+}
+.cpu-img {
+  border-radius: var(--borderRadius);
+  height: 100%;
+}
+.ram-img-container {
+  height: 18rem;
+}
+.psu-img-container {
+  height: 11rem;
+}
+.mobo-img-container {
+  height: 31rem;
+}
+.case-img-container {
+  height: 15rem;
 }
