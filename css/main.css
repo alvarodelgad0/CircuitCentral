@@ -462,11 +462,16 @@ footer p {
   box-shadow: var(--shadow-4);
   transform: scale(1.01);
 }
+.adv-img-container {
+  height: 10rem;
+}
 .adv-img {
   border-top-right-radius: var(--borderRadius);
   border-top-left-radius: var(--borderRadius);
   padding: 0;
   margin: 0;
+  object-fit: cover;
+  height: 100%;
 }
 .adv-info {
   padding: 0.5rem;
